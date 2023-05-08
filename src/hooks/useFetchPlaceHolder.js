@@ -17,9 +17,9 @@ export function useFetchPlaceHolder() {
     const buttonRef = document.getElementById("my-fetch");
     buttonRef.addEventListener("click", handleClick);
 
-    // return () => {
-    //   button.removeEventListener("click", handleClick);
-    // };
+    return () => {
+      buttonRef.removeEventListener("click", handleClick);
+    };
   }, [data]);
 
   return data;
