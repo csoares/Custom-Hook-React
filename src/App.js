@@ -1,11 +1,11 @@
 import MyComponent from "./components/MyComponent";
-import MyUseCallback from "./components/MyUseCallback";
+import MyOtherComponent from "./components/MyOtherComponent";
 
 function App() {
   return (
     <>
       <MyComponent />
-      <MyUseCallback />
+      <MyOtherComponent />
     </>
   );
 }
